@@ -93,7 +93,7 @@ type ucred struct{}
 
 type Uucred struct {
 	Ref	int32
-	Uid	uint32
+	UID	uint32
 	Ngroups	int16
 	Groups	[16]uint32
 }

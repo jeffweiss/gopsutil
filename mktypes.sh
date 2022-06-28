@@ -28,6 +28,9 @@ case $ARCH in
 		exit 1
 esac
 
+# Note that `process.Uucred#Uid` must be chanded manually to `UID` to match upstream behavior.
+# Please see https://github.com/shirou/gopsutil/pull/917 for more information.
+
 for DIR in $DIRS
 do
 	if [ -e ${DIR}/types_${GOOS}.go ]; then
