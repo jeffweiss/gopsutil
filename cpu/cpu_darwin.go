@@ -69,10 +69,9 @@ func Info() ([]InfoStat, error) {
 	// Use the rated frequency of the CPU. This is a static value and does not
 	// account for low power or Turbo Boost modes.
 	cpuFrequency, err := unix.SysctlUint64("hw.cpufrequency")
-	if err != nil {
-		return ret, err
+	if err == nil {
+		c.Mhz = float64(cpuFrequency) / 1000000.0
 	}
-	c.Mhz = float64(cpuFrequency) / 1000000.0
 
 	return append(ret, c), nil
 }
