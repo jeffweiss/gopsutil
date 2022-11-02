@@ -181,7 +181,7 @@ func getOSRelease() (platform string, version string, err error) {
 		switch field[0] {
 		case "ID": // use ID for lowercase
 			platform = trimQuotes(field[1])
-		case "VERSION":
+		case "VERSION_ID":
 			version = trimQuotes(field[1])
 		}
 	}
