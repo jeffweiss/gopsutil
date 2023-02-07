@@ -14,8 +14,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/DataDog/gopsutil/internal/common"
-	"github.com/DataDog/gopsutil/process"
+	"github.com/jeffweiss/gopsutil/internal/common"
+	"github.com/jeffweiss/gopsutil/process"
 )
 
 // from utmpx.h

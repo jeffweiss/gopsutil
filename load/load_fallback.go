@@ -2,7 +2,7 @@
 
 package load
 
-import "github.com/DataDog/gopsutil/internal/common"
+import "github.com/jeffweiss/gopsutil/internal/common"
 
 func Avg() (*AvgStat, error) {
 	return nil, common.ErrNotImplementedError

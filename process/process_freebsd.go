@@ -9,9 +9,9 @@ import (
 	"strings"
 	"syscall"
 
-	cpu "github.com/DataDog/gopsutil/cpu"
-	"github.com/DataDog/gopsutil/internal/common"
-	net "github.com/DataDog/gopsutil/net"
+	cpu "github.com/jeffweiss/gopsutil/cpu"
+	"github.com/jeffweiss/gopsutil/internal/common"
+	net "github.com/jeffweiss/gopsutil/net"
 )
 
 type MemoryMapsStat struct {

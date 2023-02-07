@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DataDog/gopsutil/internal/common"
+	"github.com/jeffweiss/gopsutil/internal/common"
 	"github.com/stretchr/testify/assert"
 )
 

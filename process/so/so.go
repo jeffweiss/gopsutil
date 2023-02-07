@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/DataDog/gopsutil/internal/common"
+	"github.com/jeffweiss/gopsutil/internal/common"
 )
 
 type libraryKey struct {

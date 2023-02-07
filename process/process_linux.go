@@ -19,10 +19,10 @@ import (
 
 	log "github.com/cihub/seelog"
 
-	"github.com/DataDog/gopsutil/cpu"
-	"github.com/DataDog/gopsutil/host"
-	"github.com/DataDog/gopsutil/internal/common"
-	"github.com/DataDog/gopsutil/net"
+	"github.com/jeffweiss/gopsutil/cpu"
+	"github.com/jeffweiss/gopsutil/host"
+	"github.com/jeffweiss/gopsutil/internal/common"
+	"github.com/jeffweiss/gopsutil/net"
 )
 
 var (

@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/DataDog/gopsutil/process/filepath"
+	"github.com/jeffweiss/gopsutil/process/filepath"
 )
 
 type finder struct {

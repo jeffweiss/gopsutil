@@ -2,7 +2,7 @@
 
 package mem
 
-import "github.com/DataDog/gopsutil/internal/common"
+import "github.com/jeffweiss/gopsutil/internal/common"
 
 func VirtualMemory() (*VirtualMemoryStat, error) {
 	return nil, common.ErrNotImplementedError

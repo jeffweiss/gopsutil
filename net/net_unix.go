@@ -5,7 +5,7 @@ package net
 import (
 	"strings"
 
-	"github.com/DataDog/gopsutil/internal/common"
+	"github.com/jeffweiss/gopsutil/internal/common"
 )
 
 // Return a list of network connections opened.

@@ -2,7 +2,7 @@
 
 package net
 
-import "github.com/DataDog/gopsutil/internal/common"
+import "github.com/jeffweiss/gopsutil/internal/common"
 
 func IOCounters(pernic bool) ([]IOCountersStat, error) {
 	return []IOCountersStat{}, common.ErrNotImplementedError

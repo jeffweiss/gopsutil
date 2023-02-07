@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/DataDog/gopsutil/process/so/testutil"
+	"github.com/jeffweiss/gopsutil/process/so/testutil"
 	"github.com/stretchr/testify/assert"
 )
 

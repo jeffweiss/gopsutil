@@ -3,7 +3,7 @@ package disk
 import (
 	"encoding/json"
 
-	"github.com/DataDog/gopsutil/internal/common"
+	"github.com/jeffweiss/gopsutil/internal/common"
 )
 
 var invoke common.Invoker

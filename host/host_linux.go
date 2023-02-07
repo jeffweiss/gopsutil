@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/DataDog/gopsutil/internal/common"
+	"github.com/jeffweiss/gopsutil/internal/common"
 )
 
 type LSB struct {

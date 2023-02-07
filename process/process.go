@@ -5,9 +5,9 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/DataDog/gopsutil/cpu"
-	"github.com/DataDog/gopsutil/internal/common"
-	"github.com/DataDog/gopsutil/mem"
+	"github.com/jeffweiss/gopsutil/cpu"
+	"github.com/jeffweiss/gopsutil/internal/common"
+	"github.com/jeffweiss/gopsutil/mem"
 )
 
 var invoke common.Invoker

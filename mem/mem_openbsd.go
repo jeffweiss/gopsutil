@@ -8,7 +8,7 @@ import (
 	"errors"
 	"fmt"
 	"os/exec"
-	"github.com/DataDog/gopsutil/internal/common"
+	"github.com/jeffweiss/gopsutil/internal/common"
 )
 
 func GetPageSize() (uint64, error) {

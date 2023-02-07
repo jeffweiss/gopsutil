@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/DataDog/gopsutil/internal/common"
+	"github.com/jeffweiss/gopsutil/internal/common"
 )
 
 func Avg() (*AvgStat, error) {

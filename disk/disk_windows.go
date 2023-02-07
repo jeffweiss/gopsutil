@@ -9,7 +9,7 @@ import (
 
 	"github.com/StackExchange/wmi"
 
-	"github.com/DataDog/gopsutil/internal/common"
+	"github.com/jeffweiss/gopsutil/internal/common"
 )
 
 var (

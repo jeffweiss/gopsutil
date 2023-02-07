@@ -10,10 +10,10 @@ import (
 	"syscall"
 	"unsafe"
 
-	cpu "github.com/DataDog/gopsutil/cpu"
-	"github.com/DataDog/gopsutil/internal/common"
-	mem "github.com/DataDog/gopsutil/mem"
-	net "github.com/DataDog/gopsutil/net"
+	cpu "github.com/jeffweiss/gopsutil/cpu"
+	"github.com/jeffweiss/gopsutil/internal/common"
+	mem "github.com/jeffweiss/gopsutil/mem"
+	net "github.com/jeffweiss/gopsutil/net"
 )
 
 type MemoryMapsStat struct {

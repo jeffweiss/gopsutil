@@ -13,9 +13,9 @@ import (
 	"github.com/StackExchange/wmi"
 	"github.com/shirou/w32"
 
-	cpu "github.com/DataDog/gopsutil/cpu"
-	"github.com/DataDog/gopsutil/internal/common"
-	net "github.com/DataDog/gopsutil/net"
+	cpu "github.com/jeffweiss/gopsutil/cpu"
+	"github.com/jeffweiss/gopsutil/internal/common"
+	net "github.com/jeffweiss/gopsutil/net"
 	log "github.com/cihub/seelog"
 )
 
