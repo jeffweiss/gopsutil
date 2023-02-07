@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/shirou/gopsutil/v3/internal/common"
+	"github.com/jeffweiss/gopsutil/v3/internal/common"
 )
 
 var (
